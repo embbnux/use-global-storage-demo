@@ -12,3 +12,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+App {
+  font-family: sans-serif;
+  text-align: center;
+  border: 1px solid black;
+}
+
+button {
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Counter {
+  text-align: center;
+  background: #eee;
+  margin: 5px;
+  padding: 5px;
+  min-width: 150px;
+}
